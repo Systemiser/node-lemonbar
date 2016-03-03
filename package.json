@@ -1,0 +1,14 @@
+{
+  "name": "lemonbar",
+  "version": "0.1.0",
+  "description": "Simplified configuration of Lemonboy's Bar.",
+  "author": "Moritz Marquardt",
+  "license": "MIT",
+
+  "main": "index.js",
+  
+  "keywords": [ "lemonbar", "lemonboy", "bar", "formatting", "codes" ],
+  "repository": { "type": "git", "url": "git+https://github.com/moqmar/node-lemonbar.git" },
+  "bugs": { "url": "https://github.com/moqmar/node-lemonbar/issues" },
+  "homepage": "https://github.com/moqmar/node-lemonbar#readme"
+}
