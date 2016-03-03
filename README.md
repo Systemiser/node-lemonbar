@@ -38,7 +38,7 @@ Append *text* to the buffer for the current line.
 Send the current line plus *text* (if given) to Lemonbar, and thus updates the current view.
 
 #### Example
-[Show a more complete example](https://github.com/moqmar/node-fontawesome/blob/master/example.js)
+[Show a more complete example](https://github.com/moqmar/node-lemonbar/blob/master/example.js)
 
 ```javascript
 var lb = require("lemonbar"); lb.launch();
