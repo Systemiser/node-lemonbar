@@ -1,5 +1,5 @@
 var lb = require(".");
-var fa = require("../node-fontawesome");
+var fa = require("fontawesome");
 
 lb.launch({
     
