@@ -66,7 +66,7 @@ module.exports = {
         global.lbcurrentline += text || "";
     },
     write: function(text) {
-        if (global.lbinstance) throw Error("Lemonbar is not running!");
+        if (!global.lbinstance) throw Error("Lemonbar is not running!");
         global.lbcurrentline += text || "";
         if (process.env.LB_DEBUG) console.log(global.lbcurrentline);
         global.lbinstance.stdin.write(global.lbcurrentline + "\n");
